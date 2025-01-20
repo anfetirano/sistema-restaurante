@@ -1,0 +1,39 @@
+/* src/Styles/Header.module.css */
+.header {
+    background-color: #343a40; /* Color de fondo oscuro para el header */
+    padding: 1rem 0; /* Espaciado para dar espacio al contenido */
+    display: flex;
+    justify-content: center; /* Centra el contenido del header */
+    align-items: center; /* Alinea el contenido verticalmente */
+    position: relative;
+    z-index: 10; /* Asegura que el header esté por encima de otros elementos */
+  }
+  
+  /* Estilo para el Navbar dentro del Header */
+  .navbar {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #f8f9fa; /* Fondo blanco para el navbar */
+    padding: 0.5rem 0;
+  }
+  
+  .navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+  }
+  
+  .navbar li {
+    font-size: 1.1rem;
+  }
+  
+  .navbar a {
+    color: #343a40;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover {
+    color: #007bff; /* Cambia el color al pasar el mouse */
+  }
+  

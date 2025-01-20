@@ -1,7 +1,7 @@
 const Inventario = () => {
     return (
       <div>
-        <h1>Inventario</h1>
+        <h1>Hola Soy Inventario</h1>
       </div>
     )
   }
